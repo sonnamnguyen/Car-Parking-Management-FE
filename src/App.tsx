@@ -109,7 +109,7 @@ export function App() {
       available: slots.filter(s => s.status === 'available').length,
       busy: slots.filter(s => s.status === 'busy').length,
       book: slots.filter(s => s.status === 'booked').length,
-      price: 19,
+      price: 5.000,
       admin: { name: 'Nguyễn Minh Hòa', email: 'hoa.nguyen@parkai.vn', avatar: 'https://randomuser.me/api/portraits/men/32.jpg' }
     };
     // Dữ liệu doanh thu theo tuần và theo tháng
@@ -158,8 +158,8 @@ export function App() {
             </div>
           </div>
           <div className="flex items-center justify-between bg-gray-50 rounded-lg px-3 py-1 w-full mt-2">
-            <span className="text-gray-500 text-xs">Giá/ngày</span>
-            <span className="font-bold text-base">${lotInfo.price}</span>
+            <span className="text-gray-500 text-xs">Giá/giờ</span>
+            <span className="font-bold text-base">{lotInfo.price}VNĐ</span>
           </div>
           <div className="flex items-center gap-2 mt-3 w-full">
             <img src={lotInfo.admin.avatar} alt="Admin" className="w-8 h-8 rounded-full" />
