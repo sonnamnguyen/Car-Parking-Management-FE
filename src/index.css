@@ -1,0 +1,16 @@
+/* PLEASE NOTE: THESE TAILWIND IMPORTS SHOULD NEVER BE DELETED */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* DO NOT DELETE THESE TAILWIND IMPORTS, OTHERWISE THE STYLING WILL NOT RENDER AT ALL */
+
+html, body {
+  height: 100%;
+  /* overflow-y: scroll; */
+}
+
+body {
+  min-height: 100vh;
+  /* Đảm bảo thanh cuộn luôn hiển thị */
+  /* overflow-y: scroll; */
+}
