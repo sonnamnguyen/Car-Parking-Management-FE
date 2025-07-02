@@ -109,7 +109,7 @@ export function App() {
       available: slots.filter(s => s.status === 'available').length,
       busy: slots.filter(s => s.status === 'busy').length,
       book: slots.filter(s => s.status === 'booked').length,
-      price: 5,000,
+      price: 5000,
       admin: { name: 'Nguyễn Minh Hòa', email: 'hoa.nguyen@parkai.vn', avatar: 'https://randomuser.me/api/portraits/men/32.jpg' }
     };
     // Dữ liệu doanh thu theo tuần và theo tháng
